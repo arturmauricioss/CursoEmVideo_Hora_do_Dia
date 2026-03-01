@@ -9,7 +9,7 @@ header{
 section{
     background: rgba(255,255,255,0.5);
     padding:15px;
-    width: 500px;
+    max-width: 500px;
     border-radius: 10px;
     margin:auto;
     box-shadow: 3px 3px 10px rgba(0,0,0,0.3);
@@ -23,7 +23,8 @@ div{
 #imagem{
         box-shadow: 3px 3px 10px rgba(0,0,0,0.3);
         border-radius: 50%;
-        margin:40px
+        margin:40px 0px;
+        max-width: 100%;
 }
 
 footer{
