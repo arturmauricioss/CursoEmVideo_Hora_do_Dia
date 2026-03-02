@@ -23,7 +23,7 @@ header{
 }
 section{
     background: rgba(255,255,255,0.5);
-    padding:15px;
+    padding:35px;
     width: 100%;
     max-width: 500px;
     border-radius: 10px;
@@ -31,19 +31,29 @@ section{
     box-shadow: 3px 3px 10px rgba(0,0,0,0.3);
     display: flex;
     flex-direction: column;
+    gap: 30px;
 }
 div{
     text-align: center;
-
+    font-size: 3em;
+    font-weight: thin;
 }
 #imagem{
         box-shadow: 3px 3px 10px rgba(0,0,0,0.3);
         border-radius: 50%;
-        margin:40px 0px;
         max-width: 100%;
 }
 
 footer{
     color: white;
     text-align: center;
+}
+.hora{
+    font-size: 50px;
+}
+.minuto{
+    font-size:40px;
+}
+.segundo{
+    font-size:30px;
 }
